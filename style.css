@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-container {
+    background-color: white;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo-pic {
+    max-width: 11rem;
+}
+
+.menu {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.menu-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 3rem;
+    cursor: pointer;
+}
+
+.menu-links a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.icon {
+    position: absolute;
+}
+
+.grid-card-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1.5rem;
+    row-gap: 1.5rem;
+}
+
+.card {
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1.5rem 1rem;
+}
+
+.text{
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.card-subtext {
+    padding-top: 0.5rem;
+    font-size: 0.7rem;
+    color: gray;
+    margin-bottom: 2rem;
+}
+
+.btn-container {
+    text-align: center;
+}
+
+.btn {
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: none;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 0.7rem 1.2rem;
+    margin: 0.2rem;
+}
+
+.btn1{
+    background-color: #00b6d1;
+}
+
+.btn1:hover{
+    background-color: #03a5be;
+}
+
+.btn2{
+    background-color: #5cb85c;
+}
+
+.btn2:hover{
+    background-color: #6cc06c;
+}
